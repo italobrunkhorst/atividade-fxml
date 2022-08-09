@@ -10,10 +10,31 @@ public class TelaCadastro {
     private TextField tfPlaca;
 
     @FXML
+    private TextField tfModelo;
+
+    @FXML
+    private TextField tfCor;
+
+    @FXML
+    private TextField tfFabricante;
+
+    @FXML
+    private TextField tfAnoFabricacao;
+
+    @FXML
     private void cadastrar(ActionEvent event){
         String placa = tfPlaca.getText();
+        String modelo = tfModelo.getText();
+        String cor = tfCor.getText();
+        String fabricante = tfFabricante.getText();
+        String anoFabricacao = tfAnoFabricacao.getText();
 
         System.out.println(placa);
+        System.out.println(modelo);
+        System.out.println(cor);
+        System.out.println(fabricante);
+        System.out.println(anoFabricacao);
+
     }
     
 }

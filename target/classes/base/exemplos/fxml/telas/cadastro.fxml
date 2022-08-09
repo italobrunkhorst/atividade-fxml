@@ -19,16 +19,16 @@
     <TextField fx:id="tfPlaca" />
 
     <Label text="Modelo:"/>
-    <TextField />
+    <TextField fx:id="tfModelo"/>
 
     <Label text="Cor:"/>
-    <TextField />
+    <TextField fx:id="tfCor"/>
     
     <Label text="Fabricante:"/>
-    <TextField />
+    <TextField fx:id="tfFabricante" />
 
     <Label text="Ano Fabricação:"/>
-    <TextField />
+    <TextField fx:id="tfAnoFabricacao"/>
 
     <HBox spacing="5.0" alignment="CENTER_RIGHT">
         <Button text="Cancelar" />
